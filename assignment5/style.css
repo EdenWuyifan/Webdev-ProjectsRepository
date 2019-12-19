@@ -1,0 +1,44 @@
+body{
+	background-image: url('image/bg.jpg');
+	background-position: center bottom;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Julius Sans One', sans-serif;
+
+}
+header{
+	padding: 2%;
+	text-align: center;
+	font-size: 96px;
+	font-weight: bold; 
+	color: white;
+}
+a:link, a:visited {
+	color: white;
+	text-decoration: none; 
+}
+a:focus, a:hover {
+	color: beige;
+	border: 1px solid beige;
+}
+a:active {
+	color: beige;
+	opacity: 0.5;
+	border: 1px solid beige;
+}
+
+a.selected:link, a.selected:visited {
+	color: white;
+}
+.links{
+	font-size: 24px;
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+}
+section{
+	display: inline-block;
+	width: 60%;
+	padding-left: 20%;
+	text-align: center;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 3</title>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div id="task-1">
+		<h1>Random Image Applicattion</h1>
+		<img id="random-img" src="">
+		<script type="text/javascript">
+			var image_array = ['image1.jpg','image2.jpg','image3.jpg','image4.jpg','image5.jpg']
+			random_image(image_array);
+		</script>
+	<br>
+	</div>
+	<hr>
+	<div id="task-2">
+		<h1>Slide Show Application</h1>
+		<img id="slide-img" src=""><br>
+		<button id="start-button" onclick="start_button(image_array)">Start</button>
+		<button id="stop-button" onclick="stop_button()">Stop</button>
+	<br>
+	</div>
+	<hr>
+	<div id="task-3">
+		<h1>Simple Crap Game</h1>
+		<img id="title" src="image/dice.gif"><br>
+		<div id="result"></div>
+		<h3>Enter your bet: <input id="bet" type="text" name="bet" size="3" min="2" max="64"></h3>
+		<h3>The first dice is: <img id="dice-1" src="image/dice_1.gif"  width="50px" height="50px"></h2>
+		<h3>The second dice is: <img id="dice-2" src="image/dice_1.gif" width="50px" height="50px"></h2>
+		<h2>The total number is: <input id="total" type="text" name="total" size="3"></h2>
+		<button id="roll" onclick="roll()">Roll the Dices!</button>
+		<button id="reset" onclick="reset()">reset</button>
+	<br>
+	</div>
+	<br>
+	<div id="task-3">
+		<div id="display-date" style="border-style: solid; border-width: 0.5px;"></div>
+		<h1>NYU Holiday Calendar application</h1>
+		<input id="enter-date" type="date" name="date" min="2019-09-01" max="2021-08-31">
+		<button id="check-date" onclick="check_date()">Check date</button>
+	<br>
+	</div>
+</body>
+</html>

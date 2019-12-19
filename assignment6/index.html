@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 6 - PHP</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Zhi+Mang+Xing&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1>~ Mad Libs Application ~</h1>
+<br>
+<form action="madlibs.php" method="post" id="form-1">
+	Enter an adjective: <input type="text" name="adjective-1"><br>
+	Enter another adjective: <input type="text" name="adjective-2"><br>
+	Enter a noun: <input type="text" name="noun-1"><br>
+	<br>
+	Enter a verb: <input type="text" name="verb-1"><br>
+	<br>
+	Enter another noun: <input type="text" name="noun-2"><br>
+	<br>
+	Enter a number: <input type="number" name="number"><br>
+	<br>
+	Enter a second verb: <input type="text" name="verb-2"><br>
+	Enter third noun: <input type="text" name="noun-3"><br>
+	<br>
+	<input type="submit" name="submit">
+</form>
+<hr>
+<h1>~ Calculator ~</h1>
+<br>
+<form action="calculator.php" method="post" id="form-2">
+	Enter first number:<input id="number1" type="number" step="any" name="number1"><br>
+	Enter second number:<input id="number2" type="number" step="any" name="number2"><br>
+	Choose an operator:<input id="operator" type="text" name="operator"><br>
+	<br>
+	<input id="calculate" type="submit" name="submit"><br>
+</form>
+<hr>
+<h1>~ A simple online store form ~</h1>
+<br>
+<form action="online.php" method="post" id="form-3">
+	Name: <input type="text" name="name"><br>
+	Email: <input type="email" name="email"><br>
+	Products: 
+	<select name="product">
+		<option value="Balenciaga" selected>Balenciaga - $899</option><br>
+		<option value="Louis Votton">Louis Votton - $1299</option><br>
+	</select><br>
+	Quantity: <input type="number" name="qt"><br>
+
+	<input type="submit" name="submit">
+	<input type="reset" name="reset">
+
+</form>
+
+<hr>
+<h1>~ Online personality quiz application ~</h1>
+<br>
+<form action="quiz.php" method="post" id="form-4">
+	First Name: <input type="text" name="firstname"><br>
+	Last Name: <input type="text" name="lastname"><br>
+<hr>
+	How cool do you rate yourself?<br>
+	<input type="radio" name="cool-1" value="wack" checked> Wack!<br>
+	<input type="radio" name="cool-1" value="lame"> Lame!<br>
+	<input type="radio" name="cool-1" value="cool"> Cool!<br>
+	<input type="radio" name="cool-1" value="noice"> Noice!<br>
+	<input type="radio" name="cool-1" value="worldwide"> Mr. Worldwide!<br>
+<hr>
+	How cool do you friends rate you?<br>
+	<input type="radio" name="cool-2" value="wack" checked> Wack!<br>
+	<input type="radio" name="cool-2" value="lame"> Lame!<br>
+	<input type="radio" name="cool-2" value="cool"> Cool!<br>
+	<input type="radio" name="cool-2" value="noice"> Noice!<br>
+	<input type="radio" name="cool-2" value="worldwide"> Mr. Worldwide!<br>
+<hr>
+	How cool do you parents rate you?<br>
+	<input type="radio" name="cool-3" value="wack" checked> Wack!<br>
+	<input type="radio" name="cool-3" value="lame"> Lame!<br>
+	<input type="radio" name="cool-3" value="cool"> Cool!<br>
+	<input type="radio" name="cool-3" value="noice"> Noice!<br>
+	<input type="radio" name="cool-3" value="worldwide"> Mr. Worldwide!<br>
+<br>
+	<input type="submit" name="submit">
+	<input type="reset" name="reset">
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+@font-face{
+    	font-family: 'Poster';
+    	src : url('../font/RockingPoster.ttf');
+	}
+	@font-face{
+    	font-family: 'Rock';
+    	src : url('../font/RockSalt.ttf');
+	}
+	@font-face{
+    	font-family: 'Oasis';
+    	src : url('../font/OASIS.TTF');
+	}
+
+	body {
+
+	}
+
+	h1 {
+
+	}
+
+	a {
+		text-decoration: none;
+		color:inherit;
+	}
+
+	a:hover {
+
+	}
+	.header {
+		background-color: rgb(159,38,32);
+		font-size: 28px;
+		padding-left: 20%;
+		color: white;
+		text-align: center;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		font-family: 'Oasis';
+		font-weight: bold;
+	}
+
+	.navbar {
+		display: inline-block;
+		color: white;
+		position:fixed;
+		margin: 0px;
+		background-color: rgb(70,154,180);
+		font-size: 25px;
+		float: left;
+		top:0px;
+  		left:0px;
+		padding-bottom: 40%;
+		padding-top: 10%;
+		font-family: 'Poster';
+		padding-right: 2%;
+		padding-left:2%;
+		font-weight: bold;
+		line-height: 200%;
+	}
+	.nav-item {
+		color: white;
+	}
+
+	.content {
+		background-color: rgb(36,33,32);
+		margin-left: 200px;
+		color: white;
+		padding-top: 10px;
+		padding-bottom: 150px;
+		font-family: "Rock";
+		padding-right: 40px;
+		padding-left: 60px;
+	}
+
+	.footer {
+		background-color: rgb(159,38,32);
+		color: white;
+		text-align: center;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		font-family: sans-serif;
+		font-weight: thin;
+		padding-left: 20%;
+	}
+	#portrait {
+		display: inline-block;
+		
+
+	}
+	#youth {
+		color: rgb(241,175,64);
+		display: inline;
+		text-decoration:underline;
+	}

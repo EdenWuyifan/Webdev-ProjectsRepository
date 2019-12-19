@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PART I: ~This is my shopping cart~</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|PT+Sans+Narrow&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1>PART I: ~ Band Kickstarter Cart ~</h1>
+
+<form id="form-0">
+	<section id="sec-1">
+	<hr>
+	<h3>Fender Player Series Stratocaster HSS</h3>
+	<img src="image/guitar.png" width="175px">
+	<br>
+		price: <h2 style="display: inline; font-family: 'Anton', sans-serif;">$</h2>
+		<input type="number" name="price-1" id="price-1" value=674.99 readonly> 
+	<br>
+		quantity ordered: 
+		<input style="border: 1px solid grey;" type="number" name="qt-1" id="qt-1" value=0 min=0 max=3>
+
+		subtotal: <h2 style="display: inline; font-family: 'Anton', sans-serif;">$</h2>
+		<input style="width: 180px;" type="number" id="stotal-1" name="stotal-1" value=0 readonly>
+	<hr>
+	
+	<h3>Yamaha Tour Custom 4-piece Shell Pack</h3>
+	<img src="image/drumset.png" width="300px">
+	<br>
+	 price: <h2 style="display: inline; font-family: 'Anton', sans-serif;">$</h2>
+	<input type="number" name="price-4" id="price-4"value=1249.99 readonly> 
+	<br>
+	quantity ordered: 
+	<input style="border: 1px solid grey;" type="number" name="qt-4" id="qt-4" value=0 min=0 max=3>
+
+	subtotal: <h2 style="display: inline; font-family: 'Anton', sans-serif;">$</h2>
+	<input style="width: 180px;" type="number" id="stotal-4" name="stotal-4" value=0 readonly>
+	
+	</section>
+
+	<section id="sec-2">
+	<hr>
+	<h3>Yamaha 4-String Bass</h3>
+	<img src="image/bass.png" width="185px">
+	<br>
+	 price: <h2 style="display: inline; font-family: 'Anton', sans-serif;">$</h2>
+	<input type="number" name="price-2" id="price-2"value=349.99 readonly> 
+	<br>
+	quantity ordered: 
+	<input style="border: 1px solid grey;" type="number" name="qt-2" id="qt-2" value=0 min=0 max=3>
+
+	subtotal: <h2 style="display: inline; font-family: 'Anton', sans-serif;">$</h2>
+	<input style="width: 180px;" type="number" id="stotal-2" name="stotal-2" value=0 readonly>
+
+	<hr>
+	<h3>Yamaha P-515B Digital Piano</h3>
+	<img src="image/keyboard.png" width="300px">
+	<br>
+	 price: <h2 style="display: inline; font-family: 'Anton', sans-serif;">$</h2>
+	<input type="number" name="price-3" id="price-3"value=1499.99 readonly> 
+	<br>
+	quantity ordered: 
+	<input style="border: 1px solid grey;" type="number" name="qt-3" id="qt-3" value=0 min=0 max=3>
+
+	subtotal: <h2 style="display: inline; font-family: 'Anton', sans-serif;">$</h2>
+	<input style="width: 180px;" type="number" id="stotal-3" name="stotal-3" value=0 readonly>
+	
+	</section>
+
+<section id="sec-3" style="height: 10%; width: 97%">
+	Grand total: <h2 style="display: inline; font-family: 'Anton', sans-serif;">$</h2>
+	 <input type="number" name="gtotal" id="gtotal" value=0 readonly>
+
+</section>
+</form>
+
+<form id="form-1">
+<section id="sec-4" style="height: 600px; width: 60%; float: center; margin-top: 20px; margin-left: 18%; margin-right: 20%;">
+	<hr>
+	<h2>Prepare for check out!</h2>
+	<p>First name: </p><input type="text" id="firstname" name="firstname"><br>
+	<p>Last name: </p><input type="text" id="lastname" name="lastname">
+	<br><br>
+	<p>Zipcode: </p><input type="number" name="zipcode" id="zipcode"><br>
+	<p>E-mail: </p><input type="text" name="email" id="email">
+	<br><hr>
+	<p>Express method: </p>
+	<select name="express">
+		<option value="Fast" selected>Fast(within 5 workdays)</option>
+		<option value="Regular">Regular(5-10 workdays)</option>
+	</select>
+	<br>
+	<p>Credit card:</p> Visa<input type="radio" name="creditcard" value="Visa" checked>
+	Union<input type="radio" name="creditcard" value="Union">
+
+	<br>
+	<aside>Click "submit" to validate and display the reciept.</aside>
+	<input type="submit" value="Submit">
+	<input type="reset" value="Reset">
+	<hr>
+</section>
+	<div id="demo" style="padding-left: 20%;">Your digital reciept:</div>
+</form>
+
+<br>
+<br>
+</hr>
+<ul id="navbar">
+	<h1>Part II: ~ create new HTML node ~</h1>
+	<li>Syllabus</li>
+	<li>Assignments<button style="display: inline;" id='bt-expand'>+</button></li>
+
+</ul>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
